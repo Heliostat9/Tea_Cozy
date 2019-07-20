@@ -47,8 +47,8 @@ header a {
 main {
     position: relative;
     top: 69px;
-    width: 100%;
-    
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h2 {
