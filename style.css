@@ -48,9 +48,7 @@ main {
     position: relative;
     top: 69px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 h2 {
@@ -62,6 +60,7 @@ h4 {
 }
 
 .mission {
+    margin: 0 auto;
     background-image: url("./images/img-mission-background.jpg");
     background-size: cover;
     width: 1200px; 
@@ -71,6 +70,7 @@ h4 {
     align-items: center;
     justify-content: center;
     opacity: 0.9;
+    flex-shrink: 2;
 }
 
 .line {
@@ -80,8 +80,10 @@ h4 {
 }
 
 .month {
-    margin-top: 69px; 
-    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+    max-width: 1000px;
 }
 
 .images {
@@ -105,7 +107,9 @@ h4 {
 }
 
 .locations {
-    margin-top: 69px; 
+    margin: 0 auto;
+    position: relative;
+    top: 138px;
     width: 1200px;
     height: 600px;
     background-image: url("./images/img-locations-background.jpg");
@@ -135,7 +139,7 @@ h4 {
 
 footer {
     position: relative;
-    top: 69px;
+    top: 207px;
 }
 
 .contact {
@@ -157,4 +161,8 @@ h5 {
 .copy {
     position: absolute;
     padding: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+   
 }
